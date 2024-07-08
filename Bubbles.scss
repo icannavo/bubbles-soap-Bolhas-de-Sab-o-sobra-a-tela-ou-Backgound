@@ -1,0 +1,12 @@
+.bubbles-canvas {
+  position: fixed; // Fixar o canvas no viewport
+  top: 0; // Alinha o canvas ao topo da tela
+  left: 0; // Alinha o canvas à esquerda da tela
+  width: 100vw; // Define a largura do canvas como 100% da largura da viewport
+  height: 100vh; // Define a altura do canvas como 100% da altura da viewport
+  z-index: 4000; // Coloca o canvas atrás dos outros elementos
+  background-color: rgba(0, 123, 255, 0); // Define a cor de fundo como transparente
+  display: block; // Remove qualquer espaçamento adicional ao redor do canvas
+  overflow: hidden; // Garante que o conteúdo do canvas não ultrapasse os limites definidos
+  pointer-events: none; // Ignora eventos de ponteiro para permitir a interação com os elementos atrás do canvas
+}
